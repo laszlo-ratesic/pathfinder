@@ -7,14 +7,14 @@
       transition="opacity duration-300"
       :class="show ? 'opacity-100' : 'opacity-0'"
     >
-      Vitesse WebExt
+      Shows the currently selected shopping list
     </div>
     <div
       class="flex w-10 h-10 rounded-full shadow cursor-pointer"
       bg="teal-600 hover:teal-700"
       @click="toggle()"
     >
-      <pixelarticons-power class="block m-auto text-white text-lg" />
+      <pixelarticons-shopping-bag class="block m-auto text-white text-lg" />
     </div>
   </div>
 </template>
